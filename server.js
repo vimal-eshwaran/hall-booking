@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 const PORT=process.env.PORT
 
 app.get("/",(req,res)=>{
-    res.status(201).send(`hall booking server working fine`);
+    res.status(200).send(`hall booking server working fine`);
 
 
 });
